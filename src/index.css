@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+.canvas-grid {
+  background-size: 24px 24px;
+  background-image: 
+    radial-gradient(circle, rgba(148, 163, 184, 0.22) 1.2px, transparent 1.2px);
+}
+
+.sticky-shadow {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.06), 0 10px 15px -3px rgba(0, 0, 0, 0.04);
+}
+
+.sticky-tilt-1 {
+  transform: rotate(-0.75deg);
+}
+.sticky-tilt-2 {
+  transform: rotate(0.6deg);
+}
+.sticky-tilt-3 {
+  transform: rotate(-0.4deg);
+}

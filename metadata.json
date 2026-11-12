@@ -1,0 +1,6 @@
+{
+  "name": "GrantTracker - Efficacy & Impact Platform",
+  "description": "Grant tracking platform and interactive business model canvas for monitoring fund efficacy, deliverables, budgets, and SGX sustainability reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
